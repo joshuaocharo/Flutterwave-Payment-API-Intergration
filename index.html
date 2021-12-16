@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Flutterwave</title>
+  <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css" />
+</head>
+<body>
+  <section class="hero is-primary is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="column is-4 is-offset-4">
+        <h1 class="title">Flutterwave Payment Integration</h1>
+        <br><br>
+          <div class="box">
+            <form action="" method="POST" id="payForm">
+            <div class="col-md-4 col-sm-4">
+              <label>Full Name</label><br>
+              <input type="text" id="fullName" placeholder="Full Name" required>
+            </div><br><br>
+            <div class="col-md-4 col-sm-4">
+              <label>Phone Number</label><br>
+              <input type="text" id="phoneNumber" placeholder="Phone Number" required>
+            </div><br><br>
+            <div class="col-md-4 col-sm-4">
+              <label>Email</label><br>
+              <input type="text" id="email" placeholder="Email" required>
+            </div><br><br> 
+            <div class="col-md-4 col-sm-4"><br>
+              <label>Amount</label><br>
+              <input type="number" id="amount" placeholder="Amount" required>
+            </div><br><br>
+            <div class="col-md-4 col-sm-4">
+              <input type="submit" value="Continue">
+            </div><br><br>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer data-stellar-background-ratio="5">
+      <div class="container">
+           <div class="row">
+               <div class="col-md-12 col-sm-12 border-top">
+                   <div class="col-md-4 col-sm-6">
+                       <div class="copyright-text"> 
+                        <p>By Joshua Momanyi</p>
+                       </div>
+                   </div>
+               </div>    
+           </div>
+      </div>
+ </footer>
+  </section>
+
+</body>
+<script src="https://checkout.flutterwave.com/v3.js"></script>
+<script src="main.js"></script>
+
+</html>
+
